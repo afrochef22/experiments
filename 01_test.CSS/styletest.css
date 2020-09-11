@@ -41,6 +41,12 @@ margin: 10px 0;
   color: #fff;
   background: #333;
   padding: 15px 20px;
+  
+}
+.btn:hover {
+  color: #333;
+  background: #f7c08a;
+  
 }
 
 .btn-light{
@@ -307,5 +313,23 @@ h2{
   
 }
 
+/* Forms */
 
+#form{
+  
+  padding-top:20px;
+}
+#form .container{
+  max-width: 1100px;
+  margin:auto;
+  padding: 10px 20px;
+  overflow: auto;
+}
+.m-heading{
+  font-size: 30px;
+}
+
+.input{
+  display: block;
+}
 
