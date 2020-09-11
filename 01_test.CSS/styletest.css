@@ -341,7 +341,12 @@ textarea{
 }
 
 
-button{
-  text-align: center;
+#form label{
+display: block;
 }
 
+
+.btn{
+  padding-top: 20px;
+  margin-top:20px ;
+}
