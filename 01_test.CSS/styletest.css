@@ -329,7 +329,19 @@ h2{
   font-size: 30px;
 }
 
-.input{
-  display: block;
+input{
+  width: 100%;
+  padding:10px 10px;
+  border: 1px #ddd solid;
+}
+
+textarea{
+ margin-top: 10px;
+ padding-top: 10px;
+}
+
+
+button{
+  text-align: center;
 }
 
