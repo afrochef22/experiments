@@ -219,7 +219,7 @@ height: 400px;
 }
 
 #home-info a .btn-light{
-margin-top: 50px;
+margin-top: 5px;
 }
 
 /* #features{
@@ -231,11 +231,15 @@ margin-top: 50px;
   width: 33%;
   padding: 50px;
   text-align: center;
-  height: 305px;
+  height: 300px;
 }
 
 .box i{
   margin-bottom: 10px;
+  font-size: 50px;
+}
+#features h2{
+  color: #333;
 }
 
 /* About info */
