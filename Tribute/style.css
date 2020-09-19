@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    -ms-flex-align: center;
+    background-color: #f3f3f3;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 50px;
+    margin: 2rem 2rem;
+    color: #333;
+    border-radius: 5px;
+    line-height: 1.5;
+    
+
+    
+}
+
+#title{
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 25px;
+    flex-shrink: 0;
+}
+
+.date {
+    text-align: center;
+    padding-bottom: 20px
+}
+
+h2.date {
+    font-size: 30px;
+    padding-bottom: 20px
+}
+
+.date h2 {
+    padding-bottom: 20px;
+   
+}
+
+.date p {
+    border: solid rgb(212, 209, 209) 1px;
+    border-radius: 5px;
+}
+
+.the-man{
+    text-align: center;
+    
+}
+
+.the-man {
+    border: solid rgb(212, 209, 209) 1px;
+}
+
+.the-man img{
+    border-radius: 50%;
+    ;
+}
+
+.the-man h4{
+    background:rgb(212, 209, 209);
+    height: 40px;
+    padding-top: 10px;
+    margin: 5px;
+}
+
+.time-line{
+    padding-top: 60px;
+}
+
+.list{
+    margin-left: 50px;
+    font-style: bold;
+}
+
+.list li span {
+    font-weight: bold;
+}
+
+h6{
+    padding-top: 10px;
+    text-align: center;
+    font-style: italic; 
+    font-size: .5;
+}
+
+h6 a{
+    color: rgb(61, 161, 243);
+}
+
