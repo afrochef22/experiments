@@ -43,7 +43,7 @@ h1{
 }
 
 .btn{
-    color: #fff;
+    color: #f9f9f9;
     background-color: #333;
     padding: 20px 40px;
     font-size: 16px;
@@ -58,7 +58,7 @@ h1{
   }
 
   .bg-light{
-      background: #fff;
+      background: #f9f9f9;
 
   }
 
@@ -73,23 +73,33 @@ h1{
   }
 
   h2 {
-      margin-top: 20px;
+      margin-top: 40px;
+      margin-bottom: 10px;
    
   }
 
    .container-1 {
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      display: inline-flex;
+      flex-direction: ;
       padding: 20px;
       height: 200px;
+      margin-left: auto;
+      margin-right: auto;
+      line-height: 1.5;
      
+    }
+
+    .column-1 , .column-2{
+        align-self: center;
+        width: 400px;
+        padding: 10px;
+    }
+   
     
-  }
 
   .box{
       background: #fff;
-      border: 1px solid #333;
+      
       width: 300px;
       height: auto;
       margin: 20px;
@@ -106,8 +116,10 @@ h1{
 
   h3>p{
       padding: 10px;
-  }
- 
+    }
+    
+
+  
   .container-2{
       display: flex;
       align-items: center;
@@ -133,4 +145,73 @@ h1{
       width: auto;
   }
 
-  
+  .container-3 {
+      text-align: center;
+    
+  }
+
+  .container-3 h3 {
+      padding: 40px;
+  }
+
+  .container-3 p {
+      width: 900px;
+      line-height: 2;
+      padding-bottom: 2rem;
+
+  }
+
+  .container-4 {
+      display: flex;
+      color: #fff;
+      text-align: center;
+  }
+
+  .box-4 {
+      background: rgb(115, 205, 235);
+      width: 50%;
+      height: auto;
+      text-align: center;
+      line-height: 1.8;
+     
+  }
+
+ 
+      .box-5 {
+      background: #333;
+      width: 50%;
+      height: auto;
+      text-align: center;
+      line-height: 1.8;
+  }
+
+  .container-4 p {
+      padding-bottom: 40px;
+      padding-top: 20px;
+      width: 500px;
+      text-align: center;
+      margin: auto;
+  }
+
+
+  footer {
+      background: black;
+      height: 100px;
+      color: #fff;
+  }
+.container-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.footer-1, .footer-2 {
+    margin: auto;
+    padding: 40px;
+}
+span {
+    color: blue;
+}
+    
