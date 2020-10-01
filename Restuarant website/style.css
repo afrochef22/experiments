@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #c871f3;
+}
+
+.bg-yellow {
+    background: yellow;
+}
+.bg-white {
+    background: #fff;
+}
+nav {
+    max-width: 90%;
+    margin-top: 50px;
+    margin-bottom: 20px
+}
+ ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+
+}
+
+nav li {
+    display: inline-block;
+    padding: 5px 20px;
+    align-items: stretch
+    
+ }
+ 
+.btn {
+    text-decoration: none;
+    padding: 5px 40px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 1.3rem;
+
+}
+#showcase {
+ 
+    display: flex;
+    height: 700px;
+    width: 1200px;
+}
+.showcase-img {
+    background: url('./Image/taco.jpg') no-repeat center center/cover; 
+    height: 600px;
+    width: 60rem;
+    margin-left: 40px;
+
+}
+
+.name h5 {
+    background-color: yellow;
+    padding: 5px 0;
+    margin: 10px;
+    text-align: center;
+    width: 125px; 
+
+    
+}
+
+.name h1 {
+    background-color: yellow;
+    padding: 5px 0;
+    margin: 10px;
+    text-align: center;
+    width: 210px
+}
+
+.name {
+    display: flex;
+    position: relative;
+    top: 300px;
+    
+}
+.box {
+
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+}
+.box-1  {
+    margin-left: 20px;
+    margin-bottom: 30px;
+    height: 100%;
+    width: 300px;
+    text-align: center;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+   
+  
+    
+
+    
+    
+}
+.box-1-2  {
+    margin-left: 20px;
+    height:50%;
+    width: 300px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+
+
+
+    
+    
+   
+  
