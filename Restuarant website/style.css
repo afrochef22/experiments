@@ -19,27 +19,28 @@ body {
     background: #fff;
 }
 nav {
-    max-width: 90%;
+    max-width: 1200px;
     margin-top: 50px;
-    margin-bottom: 20px
+    margin-bottom: 20px;
+
 }
  ul{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     list-style: none;
 
 }
 
 nav li {
-    display: inline-block;
-    padding: 5px 20px;
-    align-items: stretch
+   
+    padding: 5px 10px;
+    
     
  }
  
 .btn {
     text-decoration: none;
-    padding: 5px 40px;
+    padding: 10px 70px;
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 1.3rem;
@@ -168,6 +169,27 @@ nav li {
     padding: 10px 10px;
     position: relative;
     bottom: 140px;
+}
+
+.grams h2 {
+    text-align: center;
+    margin: 20px
+}
+
+.grams img {
+    padding: 10px;
+    height: 200px;
+    width: 200px;
+}
+
+@media(max-width:768px){
+    .showcase-img {
+        background: url('./Image/taco.jpg') no-repeat center center/cover; 
+        height: 400px;
+        width: 25rem;
+        margin-left: 40px;
+    
+    }
 }
 
     
