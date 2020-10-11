@@ -47,11 +47,18 @@ ul {
 
 .showcase-container{
     display: grid;
-    grid-template-columns: 1fr auto auto;
+    grid-template-areas:
+    'showcase-img special';
     height: 400px;
    
 }
+.showcase-img{
+    grid-area: showcase-img;
+}
 
+.special{
+    grid-area: special;
+}
 
 
 .name {
@@ -242,20 +249,40 @@ h3 {
       
 }
 @media(max-width: 500px) {
+    #navbar{
+        display: none;
+    }
+    .featured{
+        display: none;
+    }
     .showcase-container{
-        display: flex;
-        flex-direction: row;
+        display: grid;
+        grid-template-areas:
+        'showcase-img' 
+        'special';
+        height: 900px;
+        grid-gap: 1rem;
+       
     }
     .showcase-img{
-        display: grid;
+        height: 400px;
+        max-width: 85%;
+        
     }
-    .special-box {
-        max-width: 100px;
+   
+    .special {
+        justify-items: center;
+        
+    }
+    .special-box{
+        max-width: 90%;
+       
+    }
+
+    .price {
+        text-align: center;
     }
     
-    .name{
-        transform: translateY
-    }
     h1 {
         font-size: 1rem
     }
