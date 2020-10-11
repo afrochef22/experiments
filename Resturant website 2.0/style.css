@@ -9,26 +9,205 @@
 }
 body{
     background: linear-gradient(110deg, #f93d66, #6d47d9) no-repeat center center/cover;
-}
-.nav-container {
-    display: flex;
-    justify-content: center;
-    max-width: 90%;
-
     
-    
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-weight: 900;
+    font-size: 10px;
+    color: black;
+    text-shadow: 0 2px 0 rgba(0, 0, 0, 0.07);
 }
 .btn {
     background: var(--primary-color);
     color: #333;
     text-decoration: none;
-    padding: 1rem 4rem;
+    padding: .2rem 0;
+    margin: 4rem .2rem 2rem .2rem;
+    text-align: center;
+    
+}
+#navbar {
+    margin: 0 20px;
+    justify-content: center;
+    
+}
+.nav-container {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
     font-size: 1.5rem;
-    margin: 4rem .2rem;
+    font-weight: bold;
+    box-sizing: inherit;
+}
+    
+ul {
+    list-style: none;
+}
+
+#showcase {
+}
+
+.showcase-container{
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    height: 400px;
+   
+}
+
+
+
+.name {
+    transform: translateY(200px);
+    background: var(--primary-color);
+    margin: 1rem 7rem;
+    text-align: center;
     
 }
 
-ul {
-    list-style: none;
+.n1 {
+    max-width: 300px;
+}
+.n2 {
+    max-width: 140px;
+} 
+
+h1 {
+
+    font-size: 2rem;
+}
+
+h5 {
+    font-size: 14px;
+}
+.showcase-img {
+    background: url(./Image/taco.jpg) no-repeat center center/cover;
+    margin-left: 25px;
+    margin-right: 10px
+}
+
+.special {
+   
+    height: 400px;
+    width: auto;
+    display: inherit;
+    grid-gap: 2rem;
+    margin-right: 20px;
+    
+}
+
+.special-box {
+    background: var(--primary-color);
+    text-align: center;
+    font-weight: lighter;
+  
+
+}
+.price{
+    padding: 0 150px;
+    font-size: 4rem;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: lighter;
+}
+.item{
+    font-size:1rem;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 1rem;
+    margin: 20px;
+    text-align: center;
+    font-size: 15px;
+    
+
+}
+.box p {
+    color: #666;
+    margin: 10px 40px;
+
+}
+.icon img {
+    height: 60px;
+            
+        
+ }
+
+ .bg-white {
+    background: #fff;
+    padding: 20px 0;
+}
+
+.featured {
+    background: #fff;
+    margin: 20px;
+    padding: 2px 0;
+    display: grid;
+    flex-direction: row;
+  
+}
+
+.featured img {
+    margin: 100px 100px 0px 100px;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-left: 500px;
+    display: flex;
+    position: relative;
+    bottom: 150px;
+}
+
+.featured p{
+    font-size: 1rem;
+    padding-right: 100px;
+    margin-left: 500px;
+    display: flex;
+    position: relative;
+    bottom: 150px;
+    max-width: 400px;
+    line-height: 1.5rem;
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.learn{
+    display: flex;
+    position: relative;
+    margin-left: 500px;
+    max-width: 141px;
+    bottom: 150px;
+    color: #333;
+    text-decoration: none;
+    font-size: 1rem;
+    margin-top: 20px;
+    background: var(--primary-color);
+    padding: 10px;
+    text-align: center;
+
+}
+
+
+.fas {
+    text-align: center;
+    margin-left: 6px;
+}
+
+.grams h2{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.gram-container {
+    margin: 20px;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.gram-container img {
+    /* width: 300px;
+    height: 300px;
+    margin: 10px; */
 
 }
