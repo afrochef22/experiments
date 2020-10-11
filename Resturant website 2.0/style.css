@@ -211,3 +211,63 @@ h3 {
     margin: 10px; */
 
 }
+
+@media (max-width: 768px)  {
+    .special-box {
+        max-width: 300px;
+    }
+    .price {
+        margin-left: -100px;
+    }
+    .box{
+        grid-template-columns: repeat(2, auto);
+    }
+    .featured {
+        background: #fff;
+        margin: 20px;
+        padding: 2px 0;
+    }
+    .featured p{
+        font-size: 1rem;
+        padding-right: 100px;
+        margin-left: 50px;
+        display: block;
+        position: relative;
+        bottom: 0px;
+        max-width: 400px;
+        line-height: 1.5rem;
+        margin-top: 5px;
+        font-weight: normal;
+    }   
+      
+}
+@media(max-width: 500px) {
+    .showcase-container{
+        display: flex;
+        flex-direction: row;
+    }
+    .showcase-img{
+        display: grid;
+    }
+    .special-box {
+        max-width: 100px;
+    }
+    
+    .name{
+        transform: translateY
+    }
+    h1 {
+        font-size: 1rem
+    }
+    .box{
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .gram-container {
+        justify-items: center;
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: repeat(1, auto);
+        
+    } 
+}
