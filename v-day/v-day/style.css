@@ -51,6 +51,7 @@ iframe {
     width: 20%;
     height: 20%;
 
+
 }
 .tewntey12 {
     width: 20%;
@@ -102,4 +103,10 @@ iframe {
     padding: 100px;
     font-size: 4rem;
     font-family: 'Sacramento', cursive;
+}
+
+.top {
+    background-color: aliceblue;
+    margin-top: -60px;
+    padding-bottom: 20px;
 }
